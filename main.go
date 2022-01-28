@@ -3,9 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(sum(2, 3))
+	fmt.Println(stringToBool("omfg"))
 }
 
-func sum(x, y int) int {
-	return x + y
+func stringToBool(conversion string) bool {
+	if conversion == "true" {
+		return true
+	} else {
+		return false
+	}
 }
