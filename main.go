@@ -1,16 +1,11 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-	i := 1
+	fmt.Println(sum(2, 3))
+}
 
-	for i <= 10 {
-		fmt.Println(i)
-		i++
-	}
-
-	fmt.Println("Print is over")
+func sum(x, y int) int {
+	return x + y
 }
