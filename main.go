@@ -1,11 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	fmt.Println("Hello World")
-
 	name := "Brendan"
-
-	fmt.Printf("Hello %s", name)
+	//CODE
+	if name == "Johan" {
+		fmt.Println("It's indeed my name :", name)
+	} else {
+		fmt.Println("It is not my name")
+	}
 }
