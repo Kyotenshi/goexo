@@ -7,5 +7,5 @@ func main() {
 
 	name := "Brendan"
 
-	fmt.Printf("Hello " + name)
+	fmt.Printf("Hello %s", name)
 }
